@@ -1,0 +1,23 @@
+.presentation-card {
+    background-color: rgb(164, 163, 163);
+    padding: 2%;
+    width: min(100%, 728px);
+    aspect-ratio: 16/9;
+    box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);
+    border-radius: 0.50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.presentation-card img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid #121736;
+}
+.title_name {
+    margin-top: 2%;
+    font-size: 2.5rem;
+    font-family: 'Peralta', cursive;
+}
